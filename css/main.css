@@ -1,11 +1,201 @@
 @charset "UTF-8";
 /*CSS Doc*/
 
-
+.hidden
+{
+	display: none;
+}
 #container
 {
 	width: 980px;
 	margin: 0 auto;
 }
 
+body
+{
+	font-family: 'Acme', sans-serif;
+}
 
+p
+{
+	font-family: 'Hind Siliguri', sans-serif;
+	font-size: 18px;
+}
+
+#hero
+{
+	display: flex;
+	flex-direction: column;
+	margin-top: 40px;
+}
+
+#hero-img
+{
+	width: 940px;
+	height: 230px;
+}
+
+#hero h1
+{
+	font-size: 44px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 20px;
+	width: 940px;
+	text-transform: uppercase;
+}
+
+#hero h2
+{
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 10px;
+	width: 940px;
+	text-transform: capitalize;
+}
+
+#hero p
+{
+	text-align: center;
+	margin-top: 10px;
+	width: 920px;
+	color: #666;
+	line-height: 20px;
+}
+
+#about-us
+{
+	display: flex;
+	flex-direction: column;
+}
+
+#about-us h2
+{
+	width: 980px;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 10px;
+	margin-top: 50px;
+}
+
+#about-wrapper
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.about
+{
+	width: 210px;
+	margin-top: 20px;
+}
+
+#about-wrapper img
+{
+	width: 200px;
+	height: 200px;
+}
+
+#about-wrapper p
+{
+	margin-top: 10px;
+	color: #666;
+	line-height: 20px;	
+	letter-spacing: -.5px;
+}
+
+#objectives
+{
+	display: flex;
+	flex-direction: column;
+}
+
+#objectives h2
+{
+	width: 980px;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 50px;
+}
+
+#objectives-wrapper
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+
+
+#objectives-text-wrapper
+{
+	width: 650px;
+	display: flex;
+	flex-direction: column;
+}
+
+#objectives-wrapper img
+{
+	width: 260px;
+	height: 300px;
+	margin-top: 10px;
+	margin-right: 20px;
+}
+
+#objectives-text-wrapper p 
+{
+	margin-top: 10px;
+	color: #666;
+	line-height: 20px;	
+	letter-spacing: -.5px;
+	margin-bottom: 10px;
+}
+
+#objectives-text-wrapper ul li
+{
+	font-family: 'Hind Siliguri', sans-serif;
+	font-size: 18px;
+	color: #666;
+	line-height: 20px;	
+	letter-spacing: -1px;
+	padding: 10px;
+	list-style-type: square;
+	margin-left: 40px;
+}
+
+#education
+{
+	display: flex;
+	flex-direction: column;
+}
+
+#education h2
+{
+	width: 980px;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.edu-trout
+{
+	width: 980px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.edu-trout img
+{
+	width: 400px;
+	height: 300px;
+}
+.edu-trout p
+{
+
+}
