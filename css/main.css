@@ -1,11 +1,240 @@
 @charset "UTF-8";
 /*CSS Doc*/
 
-
+.hidden
+{
+	display: none;
+}
 #container
 {
 	width: 980px;
 	margin: 0 auto;
 }
 
+body
+{
+	font-family: 'Acme', sans-serif;
+}
 
+p
+{
+	font-family: 'Ubuntu Condensed', sans-serif;
+	font-size: 18px;
+	color: #666;
+}
+
+#hero
+{
+	display: flex;
+	flex-direction: column;
+	margin-top: 40px;
+}
+
+#hero-img
+{
+	width: 940px;
+	height: 230px;
+}
+
+#hero h2
+{
+	font-size: 44px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 20px;
+	width: 940px;
+	text-transform: uppercase;
+}
+
+#intro-large
+{
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 50px;
+	width: 940px;
+	text-transform: capitalize;
+}
+
+#hero p
+{
+	text-align: center;
+	margin-top: 10px;
+	width: 920px;
+	line-height: 20px;
+}
+
+#about-us
+{
+	display: flex;
+	flex-direction: column;
+}
+
+#about-us h2
+{
+	width: 980px;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 10px;
+	margin-top: 50px;
+}
+
+#about-wrapper
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.about
+{
+	width: 210px;
+	margin-top: 20px;
+}
+
+#about-wrapper img
+{
+	width: 200px;
+	height: 200px;
+}
+
+#about-wrapper p
+{
+	margin-top: 10px;
+	line-height: 20px;	
+	letter-spacing: -.5px;
+}
+
+#objectives
+{
+	display: flex;
+	flex-direction: column;
+}
+
+#objectives h2
+{
+	width: 980px;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 50px;
+}
+
+#objectives-wrapper
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+
+
+#objectives-text-wrapper
+{
+	width: 650px;
+	display: flex;
+	flex-direction: column;
+}
+
+#objectives-wrapper img
+{
+	width: 260px;
+	height: 300px;
+	margin-top: 10px;
+	margin-right: 20px;
+}
+
+#objectives-text-wrapper p 
+{
+	margin-top: 10px;
+	line-height: 20px;	
+	letter-spacing: -.5px;
+	margin-bottom: 10px;
+}
+
+#objectives-text-wrapper ul li
+{
+	font-family: 'Hind Siliguri', sans-serif;
+	font-size: 18px;
+	color: #666;
+	line-height: 20px;	
+	letter-spacing: -1px;
+	padding: 10px;
+	list-style-type: square;
+	margin-left: 40px;
+}
+
+#objectives-text-wrapper ul li:first-letter
+{
+	font-size: 22px;
+	font-weight: bold;
+	color: black;
+}
+
+#education
+{
+	display: flex;
+	flex-direction: column;
+}
+
+#education h2
+{
+	width: 980px;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.edu-trout
+{
+	width: 980px;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.edu-trout img
+{
+	margin-top: 30px;
+	width: 400px;
+	height: 300px;
+}
+
+#trout-1
+{
+	margin-top: 20px;
+}
+.edu-trout p
+{
+ 	margin-top: 50px;
+ 	line-height: 20px;
+}
+
+.edu-trout p:first-letter
+{
+ color: black;
+ font-size: 30px;
+ font-weight: bold;
+}
+
+#trout-1 p
+{
+	padding: 30px;
+}
+
+#trout-2 p
+{
+	padding-right: 70px;
+	padding-top: 60px;
+	margin-right: 50px;
+
+}
+
+#trout-3 p
+{
+	padding-top: 50px;
+	padding-left: 30px;
+	padding-right: 25px;
+}
