@@ -18,8 +18,9 @@ body
 
 p
 {
-	font-family: 'Hind Siliguri', sans-serif;
+	font-family: 'Ubuntu Condensed', sans-serif;
 	font-size: 18px;
+	color: #666;
 }
 
 #hero
@@ -35,7 +36,7 @@ p
 	height: 230px;
 }
 
-#hero h1
+#hero h2
 {
 	font-size: 44px;
 	font-weight: bold;
@@ -45,12 +46,12 @@ p
 	text-transform: uppercase;
 }
 
-#hero h2
+#intro-large
 {
 	font-size: 32px;
 	font-weight: bold;
 	text-align: center;
-	margin-top: 10px;
+	margin-top: 50px;
 	width: 940px;
 	text-transform: capitalize;
 }
@@ -60,7 +61,6 @@ p
 	text-align: center;
 	margin-top: 10px;
 	width: 920px;
-	color: #666;
 	line-height: 20px;
 }
 
@@ -102,7 +102,6 @@ p
 #about-wrapper p
 {
 	margin-top: 10px;
-	color: #666;
 	line-height: 20px;	
 	letter-spacing: -.5px;
 }
@@ -149,7 +148,6 @@ p
 #objectives-text-wrapper p 
 {
 	margin-top: 10px;
-	color: #666;
 	line-height: 20px;	
 	letter-spacing: -.5px;
 	margin-bottom: 10px;
@@ -165,6 +163,13 @@ p
 	padding: 10px;
 	list-style-type: square;
 	margin-left: 40px;
+}
+
+#objectives-text-wrapper ul li:first-letter
+{
+	font-size: 22px;
+	font-weight: bold;
+	color: black;
 }
 
 #education
@@ -185,17 +190,51 @@ p
 .edu-trout
 {
 	width: 980px;
-	margin-top: 20px;
+	margin-bottom: 20px;
 	display: flex;
 	justify-content: space-between;
 }
 
 .edu-trout img
 {
+	margin-top: 30px;
 	width: 400px;
 	height: 300px;
 }
+
+#trout-1
+{
+	margin-top: 20px;
+}
 .edu-trout p
 {
+ 	margin-top: 50px;
+ 	line-height: 20px;
+}
 
+.edu-trout p:first-letter
+{
+ color: black;
+ font-size: 30px;
+ font-weight: bold;
+}
+
+#trout-1 p
+{
+	padding: 30px;
+}
+
+#trout-2 p
+{
+	padding-right: 70px;
+	padding-top: 60px;
+	margin-right: 50px;
+
+}
+
+#trout-3 p
+{
+	padding-top: 50px;
+	padding-left: 30px;
+	padding-right: 25px;
 }
